@@ -1,13 +1,36 @@
-table {
-    border: 1 px "solid black";
+body {
+    background-color: darkgray;
+    font-family: Arial;
 }
 
 h1 {
     background-color: blue;
     color: red;
-    font-family: Arial;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+tr, td {
+    background-color: white ;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background-color: red;
 }
 
 h1, h3 {
     text-align: center;
+}
+
+.table-title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
 }
