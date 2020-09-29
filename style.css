@@ -3,7 +3,7 @@ body {
     font-family: Arial;
 }
 
-h1 {
+h1, .footer {
     background-color: blue;
     color: red;
 }
@@ -25,7 +25,7 @@ th {
     background-color: red;
 }
 
-h1, h3 {
+h1, h3, .vid-description, .footer {
     text-align: center;
 }
 
@@ -40,6 +40,6 @@ h1, h3 {
     margin: auto;
 }
 
-.vid-description {
+/* .vid-description, .footer {
     text-align: center;
-}
+} */
